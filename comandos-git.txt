@@ -24,3 +24,5 @@ git restore .
 git branch -M main
 git remote add origin https://github.com/gabrielmessquita/cursinho-js-github
 git push -u origin main
+
+git checkout -b new-branch //novo ramo pro orojeto
