@@ -26,3 +26,5 @@ git remote add origin https://github.com/gabrielmessquita/cursinho-js-github
 git push -u origin main
 
 git checkout -b new-branch //novo ramo pro orojeto
+git merge --no-ff new-branch //junta as branch
+git checkout nome-da=brech //alterna as branch
