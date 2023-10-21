@@ -1,3 +1,4 @@
+git init
 git status
 
 => nao rastreado
@@ -12,9 +13,14 @@ git config --global user.name "Nome"
 git add .
 
 git commit -m "first commit"
+git commit --amend //'a' para alterar o nome do commit e esc para sair, e shift dois pontos(:) para digitar wq(salvar e sair)
 
 git log
 git log --oneline
 
 git restore nomedoarquivo.ext
 git restore .
+
+git branch -M main
+git remote add origin https://github.com/gabrielmessquita/cursinho-js-github
+git push -u origin main
