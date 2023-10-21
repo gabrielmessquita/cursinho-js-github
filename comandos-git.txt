@@ -1,0 +1,20 @@
+git status
+
+=> nao rastreado
+=> rastreado
+=> comitados
+=> modificados
+
+configurar o git:
+git config --global user.email "exemplo@gmail.com"
+git config --global user.name "Nome"
+
+git add .
+
+git commit -m "first commit"
+
+git log
+git log --oneline
+
+git restore nomedoarquivo.ext
+git restore .
